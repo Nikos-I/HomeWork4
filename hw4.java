@@ -30,8 +30,7 @@ public class hw4 {
     }
             
     // Проверка решения
-    public static boolean solve(int q, int i, int w, int j, int e)
-	{
+    public static boolean solve(int q, int i, int w, int j, int e) {
         boolean res = q*10+i + w+(j*10) == e;
         return res;
     }
