@@ -21,7 +21,7 @@ public class hw4 {
             for (int j = 1; j < 10; j++) {
               // Печать результата
                 if (solve(q, i, w, j, e)){
-                    System.out.printf("Результат для q=%d, w=%d, e=%d при %d,%d => %d%d + %d%d = %d\n", q,w,e,q,i,j,i,j,w,e);
+                    System.out.printf("Результат для q=%d, w=%d, e=%d при %d,%d => %d%d + %d%d = %d\n", q,w,e, i,j, q,i, j,w, e);
                     fSolution = true;
                 }
             }
